@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+@import "tailwindcss";
+
+:root{
+  --slate-color-950:#0B0D17;
+  --blue-color-100:#D0D6F9;
+  --white-color:#fff;
+}
+
+.slate-color-950{
+  color: #0B0D17;
+  }
+
+  .blue-color-100{
+    color: #D0D6F9;
+  }
+
+
+
+.bellefair-regular {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bellefair-regular-condensed {
+  font-family: "Barlow Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 80px;
+  font-family: "Bellefair";
+  
+}
+
+h2{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 100px;
+  font-family: "Bellefair", serif;
+}
+
+h3{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 56px;
+  font-family: "Bellefair", serif;
+}
+
+h4{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 32px;
+  font-family: "Bellefair", serif;
+}
+
+h5{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "Bellefair", serif;
+}
+
+p{
+  font-size: 15px;
+  line-height: 32px;
+  font-family: "Barlow", serif;
+}
+
+nav>ul>li{
+  color: var(--white-color);
+  font-family: "Barlow Condensed",serif;
+  letter-spacing: 2.36px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.active{
+  border-color: #fff;
+  border-style: solid;
+  border-bottom-width: 3px;
+}
+
+.active-off{
+  border-color: transparent;
+  border-style: solid;
+  border-bottom-width: 3px;
+}
+
+.active-off:hover{
+  color:var(--blue-color-100);
+  border-color: rgba(255, 255, 255, 0.5)
+  
+}
+
+.sub-heading-1{
+font-size: 18px;
+line-height: 32px;
+font-weight: 400;
+}
+
+.sub-heading-2{
+font-size: 14px;
+line-height: 32px;
+font-weight: 400;
+letter-spacing: 2.35px;
+font-family: "Barlow Condensed",serif;
+}
+
+.nav-text{
+color: #fff;
+font-size: 16px;
+line-height: 32px;
+font-weight: 400;
+letter-spacing: 2.7px;
+font-family: "Barlow Condensed",serif;
+
+}
+
+.background-home-mobile{
+  background-image: url("assets/home/background-home-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+.background-destination-mobile{
+  background-image: url("assets/destination/background-destination-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+.background-crew-mobile{
+  background-image: url("assets/crew/background-crew-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+   .background-technology-mobile{
+  background-image: url("assets/technology/background-technology-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+
+@media(min-width: 768px){
+
+
+
+h1{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 150px;
+  font-family: "Bellefair";
+  
+}
+
+h2{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 100px;
+  font-family: "Bellefair", serif;
+}
+
+h3{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 80px;
+  font-family: "Bellefair", serif;
+}
+
+h4{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 32px;
+  font-family: "Bellefair", serif;
+}
+
+h5{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "Bellefair", serif;
+}
+
+p{
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Barlow", serif;
+}
+
+nav>ul>li{
+  color: var(--white-color);
+  font-family: "Barlow Condensed",serif;
+  letter-spacing: 2.36px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.background-home-tablet{
+  background-image: url("assets/home/background-home-tablet.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+
+}
+
+.background-destination-tablet{
+  background-image: url("assets/destination/background-destination-tablet.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  
+}
+
+.background-crew-tablet{
+  background-image: url("assets/crew/background-crew-tablet.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+   .background-technology-tablet{
+  background-image: url("assets/technology/background-technology-tablet.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+.nav-text{
+color: var(--blue-color-100);
+font-size: 20px;
+line-height: auto;
+font-weight: 400;
+letter-spacing: 3.38px;
+font-family: "Barlow Condensed",serif;
+
+}
+
+.sub-heading-2{
+  font-size: 16px;
+line-height: 32px;
+font-weight: 400;
+letter-spacing: 2.7px;
+font-family: "Barlow Condensed",serif;
+}
+}
+
+@media(min-width: 1024px){
+
+
+
+h1{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 150px;
+  font-family: "Bellefair";
+  
+}
+
+h2{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 100px;
+  font-family: "Bellefair", serif;
+}
+
+h3{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 100px;
+  font-family: "Bellefair", serif;
+}
+
+h4{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 32px;
+  font-family: "Bellefair", serif;
+}
+
+h5{
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "Bellefair", serif;
+}
+
+p{
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Barlow", serif;
+}
+
+nav>ul{
+  display: flex;
+  gap: 16px;
+}
+
+nav>ul>li{
+  display: flex;
+  gap: 8px;
+  color: var(--white-color);
+  font-family: "Barlow Condensed",serif;
+  letter-spacing: 2.36px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.nav-text{
+color: var(--blue-color-100);
+font-size: 28px;
+line-height: auto;
+font-weight: 400;
+letter-spacing: 3.38px;
+font-family: "Barlow Condensed",serif;
+
+}
+
+.background-home-desktop{
+  background-image: url("assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+
+}
+
+.background-destination-desktop{
+  background-image: url("assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  
+}
+
+.background-crew-tablet{
+  background-image: url("assets/crew/background-crew-tablet.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+   .background-technology-desktop{
+  background-image: url("assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  }
+
+}
+
